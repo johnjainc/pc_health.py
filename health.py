@@ -11,4 +11,4 @@ def check_cpu_usage():
 if check_disk_usage("/")<50 and check_cpu_usage()<50:
     print("Everything is okay!")
 else:
-    print("ERROR!!")
+    print("ERROR")
