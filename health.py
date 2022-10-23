@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import shutil
+import shutil#importing packages
 import psutil
 #this function is used to check disk usage
 def check_disk_usage(disk):
@@ -13,5 +13,6 @@ def check_cpu_usage():
 if check_disk_usage("/")<50 and check_cpu_usage()<50:
     print("Everything is okay")
 else:
+    print("ERROR!!")
     print("!!ERROR!!")
     print("ERROR")
